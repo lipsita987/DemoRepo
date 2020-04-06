@@ -1,9 +1,12 @@
 package com.qa.pages;
 
+import org.openqa.selenium.WebDriver;
+
 public class LoginaPageBranch {
 	
-	public LoginaPageBranch(){
-		
+	WebDriver driver;
+	public LoginaPageBranch(WebDriver driver){
+		this.driver = driver;
 	}
 
 }
